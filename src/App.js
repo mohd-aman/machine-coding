@@ -1,24 +1,17 @@
-import logo from './logo.svg';
 import './App.css';
+// import Accordion from './Components/Accordion/Accordion';
+// import CountDownTimer from './Components/CountDownTimer/CountDownTimer';
+import MakeMyTrip from './Components/MakeMyTrip/MakeMyTrip';
+// import Otp from './Components/Otp/Otp';
+// import SnakeGame from './Components/SnakeGame/SnakeGame';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+  //  <Otp/>
+  // <Accordion/>
+  // <SnakeGame/>
+  // <CountDownTimer/>
+  <MakeMyTrip/>
   );
 }
 

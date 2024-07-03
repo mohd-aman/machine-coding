@@ -1,0 +1,17 @@
+.container{
+    width: 17rem;
+    margin: 1rem;
+    display: grid;
+    grid-template: repeat(3,1fr)/repeat(3,1fr);
+    gap: 1rem;
+}
+
+.cell{
+    height: 5rem;
+    width: 5rem;
+    border: 1px solid black;
+}
+
+.blue{
+    background-color:cadetblue;
+}
